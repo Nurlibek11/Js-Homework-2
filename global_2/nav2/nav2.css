@@ -25,15 +25,6 @@ nav .nav-desc h2 {
   font-weight: 500;
   line-height: normal;
 }
-nav .nav-desc a {
-  color: #000;
-  text-align: right;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: normal;
-  text-decoration: none;
-}
 nav .nav-desc h3 {
   color: #FF6464;
   text-align: right;
@@ -60,15 +51,6 @@ nav .nav-desc h3 {
     font-weight: 500;
     line-height: normal;
   }
-  nav .nav-desc a {
-    color: #000;
-    text-align: right;
-    font-size: 17px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    text-decoration: none;
-  }
   nav .nav-desc h3 {
     color: #FF6464;
     text-align: right;
@@ -78,7 +60,7 @@ nav .nav-desc h3 {
     line-height: normal;
   }
 }
-@media (max-width: 480px) {
+@media (max-width: 600px) and (max-width: 480px) {
   nav .nav-desc {
     display: none;
   }
@@ -89,4 +71,4 @@ nav .nav-desc h3 {
     color: #000;
     font-size: 22px;
   }
-}/*# sourceMappingURL=nav.css.map */
+}/*# sourceMappingURL=nav2.css.map */
